@@ -1,8 +1,11 @@
 import pygame
 
+# config
 SCREEN_RECT = pygame.Rect(0, 0, 480, 700)
 SCREEN_SPEED = 1
 FRAME_PER_SEC = 60
+HERO_MOVING_SENSITIVITY = 3
+HERO_FIRE_EVENT = pygame.USEREVENT + 1
 
 # define event constant
 CREATE_ENEMY_EVENT = pygame.USEREVENT
